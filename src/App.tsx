@@ -2,7 +2,7 @@ import "./App.css";
 import { useState } from "react";
 
 const Title = () => {
-  return <h1>ADAM KOSZARY</h1>;
+  return <h1 aria-label="Adam Koszary's name: Adam Koszary!">ADAM KOSZARY</h1>;
 };
 
 const Portrait = () => {
