@@ -65,12 +65,25 @@ const About = () => {
             If you want to contact me try me on{" "}
             <a href="https://www.linkedin.com/in/adam-koszary/">LinkedIn</a>.
           </div>
+
+          <div>
+            <Credit />
+          </div>
         </>
       )}
     </div>
   );
 };
 
+const Credit = () => {
+  return (
+    <div className="credit">
+      <div>
+        Built with ♡ by <a href="https://joevaughan.net/">Joe Vaughan</a>
+      </div>
+    </div>
+  );
+};
 function App() {
   return (
     <body className="container">
