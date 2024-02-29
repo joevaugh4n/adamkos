@@ -88,12 +88,14 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings: "EDPT" 100, "EHLT" 12;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
   text-align: center;
 }
 
 img {
-  width: 500px;
+  width: 300px;
   animation: rotation 6s infinite linear;
   border-radius: 2px;
 }
@@ -117,15 +119,15 @@ a {
   }
 
   img {
-    width: 500px;
+    width: 275px;
   }
 
   .container {
-    gap: 8rem;
+    gap: 10rem;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 514px) {
   h1 {
     font-size: 7vh;
   }
@@ -149,6 +151,20 @@ a {
   }
 
   .container {
-    gap: 3rem;
+    gap: 8rem;
+  }
+}
+
+@media (max-width: 300px) {
+  h1 {
+    font-size: 5vh;
+  }
+
+  img {
+    width: 150px;
+  }
+
+  .container {
+    gap: 12rem;
   }
 }
